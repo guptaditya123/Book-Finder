@@ -1,12 +1,41 @@
-# React + Vite
+# 📚 Book Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive web application built with **React + Vite** that allows users to search for books using a public API. Ideal for readers and book enthusiasts who want quick access to book details.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 Search books by title or author
+- 📖 View book details (title, author, description, cover)
+- ⚡ Fast performance with Vite
+- 📱 Responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼 Screenshots
+
+### 🔍 Search Page
+![Search Page](./src/assets/s1.png)
+
+### 📖 Book Detail View
+![Book Detail](./src/assets/s2.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Open Library API](https://openlibrary.org/developers/api) *(or whichever API you’re using)*
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/guptaditya123/Book-Finder.git
+cd Book-Finder
+npm install
+npm run dev
